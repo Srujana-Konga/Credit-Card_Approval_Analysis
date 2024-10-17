@@ -1,7 +1,7 @@
 #  Credit Card Approval Analysis Project
 
 ## Overview
-This project aims to analyze the dataset containing various demographic and financial features of individuals. The analysis focuses on understanding patterns in the data, exploring relationships between different variables, and providing insights into the dataset's characteristics.
+Developed a logistic regression model to predict customer responses in a marketing campaign, achieving an accuracy of 89%. The model highlighted strengths in identifying non-responders while revealing areas for improvement in predicting responders.
 
 ## Libraries Used
 The following libraries were utilized in this project:
@@ -53,3 +53,6 @@ The methodology involved the following steps:
 ## Bivariate Analysis
 - Explored relationships between variables such as `Income` and `Education`, `Age` and `Marital Status`, and `DAYS_EMPLOYED` and `Income`.
 - Used scatter plots and correlation matrices to visualize and quantify relationships among the numerical variables and their impact on the target variable, `Status`.
+
+## Result
+- The logistic regression model achieved an accuracy of 89%, effectively identifying non-responders with a precision of 91%. However, the lower precision (63%) for responders indicates a need for further model refinement to enhance predictive performance.
